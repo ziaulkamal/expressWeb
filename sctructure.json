@@ -1,0 +1,40 @@
+[ {
+    "articles" : {
+        "slug": "bbc-news-business",
+        "img": "https://ichef.bbci.co.uk/news/660/cpsprodpb/157C0/production/_113456061_gettyimages-1218692031.jpg",
+        "titles": "Google hit with €2.42bn fine over 'abusive' AdSense contracts",
+        "category": "Business",
+        "suggestions": ["google", "adsense", "fine"],
+        "keywords": ["Google", "AdSense", "EU", "competition", "fine"],
+        "tags": ["Technology", "Advertising"],
+        "date": "2022-12-24",
+        "authors": "John Doe",
+        "type" : "News",
+        "pingStatus": "published",
+        "content": "Google has been hit with a €2.42bn ($2.7bn) fine by the European Union (EU) over its AdSense advertising contracts. The EU said the contracts, which Google used to sell adverts on third-party websites, broke EU anti-trust rules by restricting publishers from placing ads from Google's competitors on their sites. Google said it would appeal against the decision. The company was hit with a record €2.42bn fine in June 2017 over its shopping search service. It was also fined €4.34bn in 2018 over the way it used its Android mobile operating system to cement the dominance of its search engine.",
+        "status": "published",
+        "viewersCount" : 10000
+    },
+
+    "settings" : {
+        "name" : "name of Website",
+        "baseUrl" : "https://www.ganteng.com",
+        "keywords" : ["keywords 1","keywords 2","keywords 3","keywords 4","keywords 5"],
+        "apiKey" : "sk-key34224ocijdo22rjojdoiu2e3ouoiudu",
+        "socialMedia" : {
+            "facebook" : "#",
+            "github" : "#",
+            "pinteres" : "#",
+            "twitter" : "#",
+            "youtube" : "#"
+        }
+    },
+
+    "pages" : {
+        "slug" : "slugs",
+        "title" : "",
+        "date" : "date",
+        "authors" : "John Doe"
+    }
+    
+}]

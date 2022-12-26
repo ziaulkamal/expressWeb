@@ -1,3 +1,5 @@
 blogarhtml/
 node_modules/
+controllers/
+mosaic-html/
 package-lock.json

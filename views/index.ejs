@@ -1,20 +1,25 @@
+
 <%- include ('partials/head.ejs') %> 
 <%- include ('partials/header.ejs') %> 
 
 <% if (page === 'home') { %>
-  <%- include ('page/home.ejs') %>
+<%- include ('page/home.ejs') %>
 <% } %>
 
 <% if (page === 'posts') { %>
-  <%- include ('page/single-post.ejs') %>
+<%- include ('page/single-post.ejs') %>
 <% } %>
 
 <% if (page === 'pages') { %>
-  <%- include ('page/single-page.ejs') %>
+<%- include ('page/single-page.ejs') %>
 <% } %>
 
 <% if (page === 'archives') { %>
-  <%- include ('page/archive.ejs') %>
+<%- include ('page/archive.ejs') %>
+<% } %>
+
+<% if (page === '404') { %>
+<%- include ('page/404.ejs') %>
 <% } %>
 
 <%- include ('partials/footer.ejs') %> 

@@ -1,7 +1,11 @@
 [ {
     "articles" : {
         "slug": "bbc-news-business",
-        "img": "https://ichef.bbci.co.uk/news/660/cpsprodpb/157C0/production/_113456061_gettyimages-1218692031.jpg",
+        "img": {
+            "alt" : "alt image",
+            "url" : "https://ichef.bbci.co.uk/news/660/cpsprodpb/157C0/production/_113456061_gettyimages-1218692031.jpg",
+            "description" : "description"
+        },
         "titles": "Google hit with €2.42bn fine over 'abusive' AdSense contracts",
         "category": "Business",
         "suggestions": ["google", "adsense", "fine"],
@@ -34,7 +38,27 @@
         "slug" : "slugs",
         "title" : "",
         "date" : "date",
-        "authors" : "John Doe"
+        "authors" : "John Doe",
+        "content" : "content"
+    },
+
+    "authors" : {
+        "name" : "",
+        "slug" : "slugs",
+        "descriptions" : "",
+        "img": {
+            "alt" : "alt image",
+            "url" : "https://ichef.bbci.co.uk/news/660/cpsprodpb/157C0/production/_113456061_gettyimages-1218692031.jpg",
+            "description" : "description"
+        },
+        "socialMedia" :{
+            "facebook" : "#",
+            "github": "#",
+            "pinteres": "#",
+            "twitter": "#",
+            "youtube": "#"
+        }
+
     }
     
 }]
